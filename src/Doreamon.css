@@ -275,3 +275,29 @@ body {
   top: -376px;
   left: 680px;
 }
+.leg-left {
+  width: 145px;
+  height: 36px;
+  background-color: white;
+  border-top-left-radius: 96px;
+  border-bottom-left-radius: 48px;
+  border-top-right-radius: 72px;
+  border-bottom-right-radius: 72px;
+  border: 2.4px black solid;
+  position: relative;
+  top: -281px;
+  left: 345px;
+}
+.leg-right {
+  width: 140px;
+  height: 36px;
+  background-color: white;
+  border-top-left-radius: 72px;
+  border-bottom-left-radius: 72px;
+  border-top-right-radius: 96px;
+  border-bottom-right-radius: 48px;
+  border: 2.4px black solid;
+  position: relative;
+  top: -321px;
+  left: 510px;
+}

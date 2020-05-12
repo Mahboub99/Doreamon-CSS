@@ -1,7 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .Container {
   text-align: center;
   width: 1000px;
-  background-color: brown;
+  background-color: coral;
   margin: auto;
   height: 800px;
   padding: 0;
@@ -138,4 +143,53 @@
   margin: auto;
   position: relative;
   top: -100px;
+}
+.necklace {
+  z-index: 3;
+  width: 276px;
+  height: 20px;
+  border: black 2.4px solid;
+  background-color: #e72e25;
+  border-radius: 12px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: -40px;
+}
+.bell {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: black 2.4px solid;
+  text-align: center;
+  margin: auto;
+  background-color: yellow;
+  position: relative;
+  z-index: 10;
+  top: -55px;
+}
+.bell-lines {
+  width: 36px;
+  height: 2px;
+  background: yellow;
+  border: black solid 2px;
+  margin-top: 10px;
+}
+.bell-black-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  margin-top: 2px;
+}
+.bell-vertical-line {
+  width: 4px;
+  height: 14px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+.doreamon-body {
 }

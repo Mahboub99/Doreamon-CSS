@@ -37,7 +37,7 @@
   z-index: 2;
   justify-content: center;
 }
-.black {
+.black-circle {
   width: 15px;
   height: 15px;
   border-radius: 10px;
@@ -60,4 +60,82 @@
   top: -40px;
   text-align: center;
   margin: auto;
+}
+.nose-red {
+  width: 23px;
+  height: 23px;
+  border: 2.4px solid black;
+  background-color: #e72e25;
+  border-radius: 35px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.nose-white-circle {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  margin: 4px 12px 7px;
+}
+.middle-face {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.left-cat-mustaches {
+  height: 100px;
+  background-color: white;
+  z-index: 2;
+  width: 40%;
+  padding-right: 10px;
+  border-radius: 40px;
+}
+.nose-vertical-line {
+  width: 3.6px;
+  height: 140px;
+  background-color: black;
+}
+.right-cat-mustaches {
+  height: 100px;
+  background-color: white;
+  z-index: 2;
+  width: 40%;
+  padding-left: 10px;
+  border-radius: 40px;
+}
+.mustaches {
+  width: 72px;
+  height: 2.4px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+.upper {
+  margin-top: 10px;
+}
+.middle {
+  margin-top: 30px;
+}
+.lower {
+  margin-top: 30px;
+}
+.rotate-30 {
+  transform: rotate(30deg);
+}
+.rotate-150 {
+  transform: rotate(150deg);
+}
+.mouth {
+  width: 160px;
+  height: 100px;
+  border: black 3.6px solid;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top: 0;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: -100px;
 }

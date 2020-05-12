@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: coral;
 }
 
 .Container {
@@ -8,7 +9,6 @@ body {
   width: 1000px;
   background-color: coral;
   margin: auto;
-  height: 800px;
   padding: 0;
 }
 .dareamon {
@@ -176,6 +176,17 @@ body {
   border: black solid 2px;
   margin-top: 10px;
 }
+.bell-white-circle {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 9px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: -25px;
+  left: 13px;
+}
 .bell-black-circle {
   width: 10px;
   height: 10px;
@@ -299,5 +310,19 @@ body {
   border: 2.4px black solid;
   position: relative;
   top: -321px;
-  left: 510px;
+  left: 505px;
+}
+.leg-half-circle {
+  width: 28px;
+  height: 14px;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border: 2.4px solid black;
+  border-bottom: 0;
+  background-color: coral;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  top: -377px;
+  z-index: 8;
 }

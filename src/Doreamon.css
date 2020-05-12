@@ -1,0 +1,63 @@
+.Container {
+  text-align: center;
+  width: 1000px;
+  background-color: brown;
+  margin: auto;
+  height: 800px;
+  padding: 0;
+}
+.dareamon {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding-top: 40px;
+}
+.face {
+  text-align: center;
+  margin: auto;
+  width: 372px;
+  height: 360px;
+  border-radius: 175px;
+  background-color: #6580f1;
+  border: black 1.8px solid;
+}
+.eyes-container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 50px;
+  justify-content: center;
+}
+.eye {
+  width: 70px;
+  height: 100px;
+  border-radius: 35px 35px;
+  background-color: white;
+  border: black 2.4px solid;
+  display: flex;
+  z-index: 2;
+  justify-content: center;
+}
+.black {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 70px;
+}
+.black-left {
+  margin-left: 30px;
+}
+.black-right {
+  margin-right: 30px;
+}
+.white-circle-face {
+  position: relative;
+  width: 295px;
+  height: 235px;
+  border: black 2.4px solid;
+  border-radius: 180px 180px;
+  background-color: white;
+  top: -40px;
+  text-align: center;
+  margin: auto;
+}

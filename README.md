@@ -1,5 +1,5 @@
 # Doreamon-CSS
-🐱 Draw Doreamon Charachtar in pure CSS
+🐱 Draw Doraemon Character in pure CSS
 
 
 # Why

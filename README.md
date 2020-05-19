@@ -3,7 +3,7 @@
 
 
 # Why
-it is a coding challeange for <a href = "https://instabug-intern-website.instabug-dev.com">Instabug</a>
+it is a coding challeange from <a href = "https://instabug-intern-website.instabug-dev.com">Instabug</a>
 
 
 # Demo 
